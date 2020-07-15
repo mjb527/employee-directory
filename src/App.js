@@ -15,8 +15,10 @@ function App() {
   return (
     <div>
       <Header />
-      <Controls />
-      <Table />
+      <div class="wrapper">
+        <Controls />
+        <Table />
+      </div>
       <Footer />
     </div>
   );

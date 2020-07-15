@@ -1,0 +1,13 @@
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.controls div {
+  display: inline-block;
+  width: 50%;
+}
+
+.controls div * {
+  width: 100%;
+}

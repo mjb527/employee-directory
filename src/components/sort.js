@@ -3,10 +3,10 @@ import "../App.css";
 
 function Sort() {
   return (
-    <div className="sort">
+    <div>
       <select name="sortSelector" onChange="" >
-        <option value="name">Name</option>
-        <option value="date">Date</option>
+        <option value="name">NAME</option>
+        <option value="date">DATE</option>
       </select>
     </div>
   )

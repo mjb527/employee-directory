@@ -1,38 +1,46 @@
+/* reset browser padding and margins */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  padding: 10px;
+  color: white;
+  background-color: #00004d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+  min-height: 85vh;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+table {
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
+
+table tr:first-child {
+  background-color: #00004d;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(even) {
+  background-color: #8080ff
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:nth-child(odd) {
+  background-color: #f0f5f5;
+}
+
+footer {
+  height: 20vh;
+  background-color: #00004d;
 }

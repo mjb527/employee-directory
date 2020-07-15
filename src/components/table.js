@@ -6,8 +6,34 @@ function Table() {
     <div className="table">
       <table>
         <tr>
-          <td>test</td>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Department</th>
+          <th>Hire Date</th>
         </tr>
+
+        <tr>
+          <td>Name</td>
+          <td>Position</td>
+          <td>Department</td>
+          <td>Hire Date</td>
+        </tr>
+
+        <tr>
+          <td>Name</td>
+          <td>Position</td>
+          <td>Department</td>
+          <td>Hire Date</td>
+        </tr>
+
+        <tr>
+          <td>Name</td>
+          <td>Position</td>
+          <td>Department</td>
+          <td>Hire Date</td>
+        </tr>
+
+
       </table>
     </div>
   )
